@@ -9,7 +9,10 @@ const settings = {
       "https://*.medium.com/*/*",
       // Towardsdatascience.com (Data Science, AI and ML)
       "https://towardsdatascience.com/*",
-      "https://towardsdatascience.com/*/*"
+      "https://towardsdatascience.com/*/*",
+      // Codeburst
+      "https://codeburst.io/*/*",
+      "https://codeburst.io/*"
     ]
   },
   extraInfoSpec: ["requestHeaders", "blocking", "extraHeaders"]
